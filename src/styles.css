@@ -1,0 +1,88 @@
+body {
+  background-color: #e4cdf5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  text-align: center;
+  max-width: 600px;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #6518c2;
+  font-size: 3rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #3f0b6e;
+  font-size: 1.8rem;
+  margin: 10px 0;
+}
+
+h3 {
+  color: #6518c2;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.intro-card {
+  line-height: 0.6;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.intro-card h4 {
+  color: #6518c2;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.intro-card p {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.artist-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.artist-button {
+  background: white;
+  border: 1px solid #ceaef1;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 1.1rem;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.artist-button:hover {
+  background: #d4bcf0;
+}
+
+/* Sección de Gatos */
+.cat-container {
+  margin-top: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.cat-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
